@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\tjoven\\Documents\\3.4.7\\Android-SDK@3.4.7.81308_20220424\\HBuilder-Integrate-AS\\simpleDemo\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ldrtl-v17\\values-ldrtl-v17.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\tjoven\\.gradle\\caches\\transforms-2\\files-2.1\\169aa4bed38a152830ed8382b755800d\\jetified-uniapp-v8-release\\res\\values-ldrtl-v17\\values-ldrtl-v17.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "50",
+                        "endOffsets": "101"
+                    }
+                }
+            ]
+        }
+    ]
+}

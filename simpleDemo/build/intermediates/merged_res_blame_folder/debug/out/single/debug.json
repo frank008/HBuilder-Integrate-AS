@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "C:\\Users\\tjoven\\Documents\\3.4.7\\Android-SDK@3.4.7.81308_20220424\\HBuilder-Integrate-AS\\simpleDemo\\build\\intermediates\\res\\merged\\debug\\drawable_splash.png.flat",
+        "source": "C:\\Users\\tjoven\\Documents\\3.4.7\\Android-SDK@3.4.7.81308_20220424\\HBuilder-Integrate-AS\\simpleDemo\\src\\main\\res\\drawable\\splash.png"
+    },
+    {
+        "merged": "C:\\Users\\tjoven\\Documents\\3.4.7\\Android-SDK@3.4.7.81308_20220424\\HBuilder-Integrate-AS\\simpleDemo\\build\\intermediates\\res\\merged\\debug\\drawable_push.png.flat",
+        "source": "C:\\Users\\tjoven\\Documents\\3.4.7\\Android-SDK@3.4.7.81308_20220424\\HBuilder-Integrate-AS\\simpleDemo\\src\\main\\res\\drawable\\push.png"
+    },
+    {
+        "merged": "C:\\Users\\tjoven\\Documents\\3.4.7\\Android-SDK@3.4.7.81308_20220424\\HBuilder-Integrate-AS\\simpleDemo\\build\\intermediates\\res\\merged\\debug\\drawable_icon.png.flat",
+        "source": "C:\\Users\\tjoven\\Documents\\3.4.7\\Android-SDK@3.4.7.81308_20220424\\HBuilder-Integrate-AS\\simpleDemo\\src\\main\\res\\drawable\\icon.png"
+    }
+]

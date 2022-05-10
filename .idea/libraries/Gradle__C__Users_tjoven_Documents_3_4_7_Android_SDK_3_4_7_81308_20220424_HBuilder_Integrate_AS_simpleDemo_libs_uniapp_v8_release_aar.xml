@@ -1,0 +1,16 @@
+<component name="libraryTable">
+  <library name="Gradle: C./Users/tjoven/Documents/3.4.7/Android-SDK@3.4.7.81308_20220424/HBuilder-Integrate-AS/simpleDemo/libs/uniapp-v8-release.aar">
+    <ANNOTATIONS>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/169aa4bed38a152830ed8382b755800d/jetified-uniapp-v8-release/annotations.zip!/" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/169aa4bed38a152830ed8382b755800d/jetified-uniapp-v8-release/jars/classes.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/169aa4bed38a152830ed8382b755800d/jetified-uniapp-v8-release/jars/libs/bindingx-core-1.0.9.6.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/169aa4bed38a152830ed8382b755800d/jetified-uniapp-v8-release/jars/libs/bindingx_weex_plugin-1.0.9.6.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/169aa4bed38a152830ed8382b755800d/jetified-uniapp-v8-release/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/169aa4bed38a152830ed8382b755800d/jetified-uniapp-v8-release/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

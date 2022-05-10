@@ -1,0 +1,338 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.android.simple"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->C:\Users\tjoven\Documents\3.4.7\Android-SDK@3.4.7.81308_20220424\HBuilder-Integrate-AS\simpleDemo\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->C:\Users\tjoven\Documents\3.4.7\Android-SDK@3.4.7.81308_20220424\HBuilder-Integrate-AS\simpleDemo\src\main\AndroidManifest.xml
+10
+11    <supports-screens
+11-->[lib.5plus.base-release.aar] C:\Users\tjoven\.gradle\caches\transforms-2\files-2.1\6ce3f8d93e05ce2060c5093ca3decde2\jetified-lib.5plus.base-release\AndroidManifest.xml:9:5-14:39
+12        android:anyDensity="true"
+12-->[lib.5plus.base-release.aar] C:\Users\tjoven\.gradle\caches\transforms-2\files-2.1\6ce3f8d93e05ce2060c5093ca3decde2\jetified-lib.5plus.base-release\AndroidManifest.xml:10:9-34
+13        android:largeScreens="true"
+13-->[lib.5plus.base-release.aar] C:\Users\tjoven\.gradle\caches\transforms-2\files-2.1\6ce3f8d93e05ce2060c5093ca3decde2\jetified-lib.5plus.base-release\AndroidManifest.xml:11:9-36
+14        android:normalScreens="true"
+14-->[lib.5plus.base-release.aar] C:\Users\tjoven\.gradle\caches\transforms-2\files-2.1\6ce3f8d93e05ce2060c5093ca3decde2\jetified-lib.5plus.base-release\AndroidManifest.xml:12:9-37
+15        android:resizeable="true"
+15-->[lib.5plus.base-release.aar] C:\Users\tjoven\.gradle\caches\transforms-2\files-2.1\6ce3f8d93e05ce2060c5093ca3decde2\jetified-lib.5plus.base-release\AndroidManifest.xml:13:9-34
+16        android:smallScreens="true" />
+16-->[lib.5plus.base-release.aar] C:\Users\tjoven\.gradle\caches\transforms-2\files-2.1\6ce3f8d93e05ce2060c5093ca3decde2\jetified-lib.5plus.base-release\AndroidManifest.xml:14:9-36
+17
+18    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+18-->[lib.5plus.base-release.aar] C:\Users\tjoven\.gradle\caches\transforms-2\files-2.1\6ce3f8d93e05ce2060c5093ca3decde2\jetified-lib.5plus.base-release\AndroidManifest.xml:16:5-81
+18-->[lib.5plus.base-release.aar] C:\Users\tjoven\.gradle\caches\transforms-2\files-2.1\6ce3f8d93e05ce2060c5093ca3decde2\jetified-lib.5plus.base-release\AndroidManifest.xml:16:22-78
+19    <uses-permission android:name="android.permission.INTERNET" />
+19-->[lib.5plus.base-release.aar] C:\Users\tjoven\.gradle\caches\transforms-2\files-2.1\6ce3f8d93e05ce2060c5093ca3decde2\jetified-lib.5plus.base-release\AndroidManifest.xml:17:5-67
+19-->[lib.5plus.base-release.aar] C:\Users\tjoven\.gradle\caches\transforms-2\files-2.1\6ce3f8d93e05ce2060c5093ca3decde2\jetified-lib.5plus.base-release\AndroidManifest.xml:17:22-64
+20    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+20-->[lib.5plus.base-release.aar] C:\Users\tjoven\.gradle\caches\transforms-2\files-2.1\6ce3f8d93e05ce2060c5093ca3decde2\jetified-lib.5plus.base-release\AndroidManifest.xml:18:5-79
+20-->[lib.5plus.base-release.aar] C:\Users\tjoven\.gradle\caches\transforms-2\files-2.1\6ce3f8d93e05ce2060c5093ca3decde2\jetified-lib.5plus.base-release\AndroidManifest.xml:18:22-76
+21    <!--
+22    <uses-permission
+23        android:name="com.android.launcher.permission.UNINSTALL_SHORTCUT" />
+24    -->
+25    <!-- 华为修改角标需要设置权限 -->
+26    <uses-permission android:name="com.huawei.android.launcher.permission.CHANGE_BADGE" /> <!-- vivo 修改角标需要设置权限 -->
+26-->[lib.5plus.base-release.aar] C:\Users\tjoven\.gradle\caches\transforms-2\files-2.1\6ce3f8d93e05ce2060c5093ca3decde2\jetified-lib.5plus.base-release\AndroidManifest.xml:24:5-91
+26-->[lib.5plus.base-release.aar] C:\Users\tjoven\.gradle\caches\transforms-2\files-2.1\6ce3f8d93e05ce2060c5093ca3decde2\jetified-lib.5plus.base-release\AndroidManifest.xml:24:22-88
+27    <uses-permission android:name="com.vivo.notification.permission.BADGE_ICON" />
+27-->[lib.5plus.base-release.aar] C:\Users\tjoven\.gradle\caches\transforms-2\files-2.1\6ce3f8d93e05ce2060c5093ca3decde2\jetified-lib.5plus.base-release\AndroidManifest.xml:26:5-83
+27-->[lib.5plus.base-release.aar] C:\Users\tjoven\.gradle\caches\transforms-2\files-2.1\6ce3f8d93e05ce2060c5093ca3decde2\jetified-lib.5plus.base-release\AndroidManifest.xml:26:22-80
+28
+29    <queries>
+29-->[lib.5plus.base-release.aar] C:\Users\tjoven\.gradle\caches\transforms-2\files-2.1\6ce3f8d93e05ce2060c5093ca3decde2\jetified-lib.5plus.base-release\AndroidManifest.xml:28:5-37:15
+30        <intent>
+30-->[lib.5plus.base-release.aar] C:\Users\tjoven\.gradle\caches\transforms-2\files-2.1\6ce3f8d93e05ce2060c5093ca3decde2\jetified-lib.5plus.base-release\AndroidManifest.xml:29:9-31:18
+31            <action android:name="android.intent.action.MAIN" />
+31-->C:\Users\tjoven\Documents\3.4.7\Android-SDK@3.4.7.81308_20220424\HBuilder-Integrate-AS\simpleDemo\src\main\AndroidManifest.xml:22:17-69
+31-->C:\Users\tjoven\Documents\3.4.7\Android-SDK@3.4.7.81308_20220424\HBuilder-Integrate-AS\simpleDemo\src\main\AndroidManifest.xml:22:25-66
+32        </intent>
+33        <intent>
+33-->[lib.5plus.base-release.aar] C:\Users\tjoven\.gradle\caches\transforms-2\files-2.1\6ce3f8d93e05ce2060c5093ca3decde2\jetified-lib.5plus.base-release\AndroidManifest.xml:32:9-36:18
+34            <action android:name="android.intent.action.VIEW" />
+34-->C:\Users\tjoven\Documents\3.4.7\Android-SDK@3.4.7.81308_20220424\HBuilder-Integrate-AS\simpleDemo\src\main\AndroidManifest.xml:38:17-69
+34-->C:\Users\tjoven\Documents\3.4.7\Android-SDK@3.4.7.81308_20220424\HBuilder-Integrate-AS\simpleDemo\src\main\AndroidManifest.xml:38:25-66
+35
+36            <category android:name="android.intent.category.DEFAULT" />
+36-->C:\Users\tjoven\Documents\3.4.7\Android-SDK@3.4.7.81308_20220424\HBuilder-Integrate-AS\simpleDemo\src\main\AndroidManifest.xml:36:17-76
+36-->C:\Users\tjoven\Documents\3.4.7\Android-SDK@3.4.7.81308_20220424\HBuilder-Integrate-AS\simpleDemo\src\main\AndroidManifest.xml:36:27-73
+37        </intent>
+38    </queries>
+39
+40    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+41    <uses-permission android:name="com.asus.msa.SupplementaryDID.ACCESS" />
+41-->[oaid_sdk_1.0.25.aar] C:\Users\tjoven\.gradle\caches\transforms-2\files-2.1\a5fb6194f56458cb1ef97887e816f9bb\jetified-oaid_sdk_1.0.25\AndroidManifest.xml:13:5-76
+41-->[oaid_sdk_1.0.25.aar] C:\Users\tjoven\.gradle\caches\transforms-2\files-2.1\a5fb6194f56458cb1ef97887e816f9bb\jetified-oaid_sdk_1.0.25\AndroidManifest.xml:13:22-73
+42    <uses-permission android:name="freemme.permission.msa" />
+42-->[oaid_sdk_1.0.25.aar] C:\Users\tjoven\.gradle\caches\transforms-2\files-2.1\a5fb6194f56458cb1ef97887e816f9bb\jetified-oaid_sdk_1.0.25\AndroidManifest.xml:15:5-62
+42-->[oaid_sdk_1.0.25.aar] C:\Users\tjoven\.gradle\caches\transforms-2\files-2.1\a5fb6194f56458cb1ef97887e816f9bb\jetified-oaid_sdk_1.0.25\AndroidManifest.xml:15:22-59
+43
+44    <application
+44-->C:\Users\tjoven\Documents\3.4.7\Android-SDK@3.4.7.81308_20220424\HBuilder-Integrate-AS\simpleDemo\src\main\AndroidManifest.xml:5:5-45:19
+45        android:name="io.dcloud.application.DCloudApplication"
+45-->[lib.5plus.base-release.aar] C:\Users\tjoven\.gradle\caches\transforms-2\files-2.1\6ce3f8d93e05ce2060c5093ca3decde2\jetified-lib.5plus.base-release\AndroidManifest.xml:170:9-63
+46        android:allowBackup="true"
+46-->C:\Users\tjoven\Documents\3.4.7\Android-SDK@3.4.7.81308_20220424\HBuilder-Integrate-AS\simpleDemo\src\main\AndroidManifest.xml:6:9-35
+47        android:allowClearUserData="true"
+47-->C:\Users\tjoven\Documents\3.4.7\Android-SDK@3.4.7.81308_20220424\HBuilder-Integrate-AS\simpleDemo\src\main\AndroidManifest.xml:7:9-42
+48        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+48-->[androidx.core:core:1.0.0] C:\Users\tjoven\.gradle\caches\transforms-2\files-2.1\4fa96a30a609219e9d73eea686ac383a\core-1.0.0\AndroidManifest.xml:22:18-86
+49        android:debuggable="true"
+50        android:extractNativeLibs="true"
+50-->[uniapp-v8-release.aar] C:\Users\tjoven\.gradle\caches\transforms-2\files-2.1\169aa4bed38a152830ed8382b755800d\jetified-uniapp-v8-release\AndroidManifest.xml:29:18-50
+51        android:icon="@drawable/icon"
+51-->C:\Users\tjoven\Documents\3.4.7\Android-SDK@3.4.7.81308_20220424\HBuilder-Integrate-AS\simpleDemo\src\main\AndroidManifest.xml:8:9-38
+52        android:label="@string/app_name"
+52-->C:\Users\tjoven\Documents\3.4.7\Android-SDK@3.4.7.81308_20220424\HBuilder-Integrate-AS\simpleDemo\src\main\AndroidManifest.xml:9:9-41
+53        android:largeHeap="true"
+53-->C:\Users\tjoven\Documents\3.4.7\Android-SDK@3.4.7.81308_20220424\HBuilder-Integrate-AS\simpleDemo\src\main\AndroidManifest.xml:10:9-33
+54        android:supportsRtl="true"
+54-->C:\Users\tjoven\Documents\3.4.7\Android-SDK@3.4.7.81308_20220424\HBuilder-Integrate-AS\simpleDemo\src\main\AndroidManifest.xml:11:9-35
+55        android:testOnly="true"
+56        android:usesCleartextTraffic="true" >
+56-->[lib.5plus.base-release.aar] C:\Users\tjoven\.gradle\caches\transforms-2\files-2.1\6ce3f8d93e05ce2060c5093ca3decde2\jetified-lib.5plus.base-release\AndroidManifest.xml:172:9-44
+57        <activity
+57-->C:\Users\tjoven\Documents\3.4.7\Android-SDK@3.4.7.81308_20220424\HBuilder-Integrate-AS\simpleDemo\src\main\AndroidManifest.xml:12:9-25:20
+58            android:name="io.dcloud.PandoraEntry"
+58-->C:\Users\tjoven\Documents\3.4.7\Android-SDK@3.4.7.81308_20220424\HBuilder-Integrate-AS\simpleDemo\src\main\AndroidManifest.xml:13:13-50
+59            android:configChanges="orientation|keyboardHidden|keyboard|navigation"
+59-->C:\Users\tjoven\Documents\3.4.7\Android-SDK@3.4.7.81308_20220424\HBuilder-Integrate-AS\simpleDemo\src\main\AndroidManifest.xml:14:13-83
+60            android:hardwareAccelerated="true"
+60-->C:\Users\tjoven\Documents\3.4.7\Android-SDK@3.4.7.81308_20220424\HBuilder-Integrate-AS\simpleDemo\src\main\AndroidManifest.xml:17:13-47
+61            android:label="@string/app_name"
+61-->C:\Users\tjoven\Documents\3.4.7\Android-SDK@3.4.7.81308_20220424\HBuilder-Integrate-AS\simpleDemo\src\main\AndroidManifest.xml:15:13-45
+62            android:launchMode="singleTask"
+62-->C:\Users\tjoven\Documents\3.4.7\Android-SDK@3.4.7.81308_20220424\HBuilder-Integrate-AS\simpleDemo\src\main\AndroidManifest.xml:16:13-44
+63            android:screenOrientation="user"
+63-->C:\Users\tjoven\Documents\3.4.7\Android-SDK@3.4.7.81308_20220424\HBuilder-Integrate-AS\simpleDemo\src\main\AndroidManifest.xml:19:13-45
+64            android:theme="@style/TranslucentTheme"
+64-->C:\Users\tjoven\Documents\3.4.7\Android-SDK@3.4.7.81308_20220424\HBuilder-Integrate-AS\simpleDemo\src\main\AndroidManifest.xml:18:13-52
+65            android:windowSoftInputMode="adjustResize" >
+65-->C:\Users\tjoven\Documents\3.4.7\Android-SDK@3.4.7.81308_20220424\HBuilder-Integrate-AS\simpleDemo\src\main\AndroidManifest.xml:20:13-55
+66            <intent-filter>
+66-->C:\Users\tjoven\Documents\3.4.7\Android-SDK@3.4.7.81308_20220424\HBuilder-Integrate-AS\simpleDemo\src\main\AndroidManifest.xml:21:13-24:29
+67                <action android:name="android.intent.action.MAIN" />
+67-->C:\Users\tjoven\Documents\3.4.7\Android-SDK@3.4.7.81308_20220424\HBuilder-Integrate-AS\simpleDemo\src\main\AndroidManifest.xml:22:17-69
+67-->C:\Users\tjoven\Documents\3.4.7\Android-SDK@3.4.7.81308_20220424\HBuilder-Integrate-AS\simpleDemo\src\main\AndroidManifest.xml:22:25-66
+68
+69                <category android:name="android.intent.category.LAUNCHER" />
+69-->C:\Users\tjoven\Documents\3.4.7\Android-SDK@3.4.7.81308_20220424\HBuilder-Integrate-AS\simpleDemo\src\main\AndroidManifest.xml:23:17-77
+69-->C:\Users\tjoven\Documents\3.4.7\Android-SDK@3.4.7.81308_20220424\HBuilder-Integrate-AS\simpleDemo\src\main\AndroidManifest.xml:23:27-74
+70            </intent-filter>
+71        </activity>
+72        <activity
+72-->C:\Users\tjoven\Documents\3.4.7\Android-SDK@3.4.7.81308_20220424\HBuilder-Integrate-AS\simpleDemo\src\main\AndroidManifest.xml:26:9-41:20
+73            android:name="io.dcloud.PandoraEntryActivity"
+73-->C:\Users\tjoven\Documents\3.4.7\Android-SDK@3.4.7.81308_20220424\HBuilder-Integrate-AS\simpleDemo\src\main\AndroidManifest.xml:27:13-58
+74            android:configChanges="orientation|keyboardHidden|screenSize|mcc|mnc|fontScale|keyboard|smallestScreenSize|screenLayout|screenSize"
+74-->C:\Users\tjoven\Documents\3.4.7\Android-SDK@3.4.7.81308_20220424\HBuilder-Integrate-AS\simpleDemo\src\main\AndroidManifest.xml:29:13-144
+75            android:hardwareAccelerated="true"
+75-->C:\Users\tjoven\Documents\3.4.7\Android-SDK@3.4.7.81308_20220424\HBuilder-Integrate-AS\simpleDemo\src\main\AndroidManifest.xml:30:13-47
+76            android:launchMode="singleTask"
+76-->C:\Users\tjoven\Documents\3.4.7\Android-SDK@3.4.7.81308_20220424\HBuilder-Integrate-AS\simpleDemo\src\main\AndroidManifest.xml:28:13-44
+77            android:permission="com.miui.securitycenter.permission.AppPermissionsEditor"
+77-->C:\Users\tjoven\Documents\3.4.7\Android-SDK@3.4.7.81308_20220424\HBuilder-Integrate-AS\simpleDemo\src\main\AndroidManifest.xml:31:13-89
+78            android:screenOrientation="user"
+78-->C:\Users\tjoven\Documents\3.4.7\Android-SDK@3.4.7.81308_20220424\HBuilder-Integrate-AS\simpleDemo\src\main\AndroidManifest.xml:32:13-45
+79            android:theme="@style/DCloudTheme"
+79-->C:\Users\tjoven\Documents\3.4.7\Android-SDK@3.4.7.81308_20220424\HBuilder-Integrate-AS\simpleDemo\src\main\AndroidManifest.xml:33:13-47
+80            android:windowSoftInputMode="adjustResize" >
+80-->C:\Users\tjoven\Documents\3.4.7\Android-SDK@3.4.7.81308_20220424\HBuilder-Integrate-AS\simpleDemo\src\main\AndroidManifest.xml:34:13-55
+81            <intent-filter>
+81-->C:\Users\tjoven\Documents\3.4.7\Android-SDK@3.4.7.81308_20220424\HBuilder-Integrate-AS\simpleDemo\src\main\AndroidManifest.xml:35:13-40:29
+82                <category android:name="android.intent.category.DEFAULT" />
+82-->C:\Users\tjoven\Documents\3.4.7\Android-SDK@3.4.7.81308_20220424\HBuilder-Integrate-AS\simpleDemo\src\main\AndroidManifest.xml:36:17-76
+82-->C:\Users\tjoven\Documents\3.4.7\Android-SDK@3.4.7.81308_20220424\HBuilder-Integrate-AS\simpleDemo\src\main\AndroidManifest.xml:36:27-73
+83                <category android:name="android.intent.category.BROWSABLE" />
+83-->C:\Users\tjoven\Documents\3.4.7\Android-SDK@3.4.7.81308_20220424\HBuilder-Integrate-AS\simpleDemo\src\main\AndroidManifest.xml:37:17-78
+83-->C:\Users\tjoven\Documents\3.4.7\Android-SDK@3.4.7.81308_20220424\HBuilder-Integrate-AS\simpleDemo\src\main\AndroidManifest.xml:37:27-75
+84
+85                <action android:name="android.intent.action.VIEW" />
+85-->C:\Users\tjoven\Documents\3.4.7\Android-SDK@3.4.7.81308_20220424\HBuilder-Integrate-AS\simpleDemo\src\main\AndroidManifest.xml:38:17-69
+85-->C:\Users\tjoven\Documents\3.4.7\Android-SDK@3.4.7.81308_20220424\HBuilder-Integrate-AS\simpleDemo\src\main\AndroidManifest.xml:38:25-66
+86
+87                <data android:scheme="h56131bcf" />
+87-->C:\Users\tjoven\Documents\3.4.7\Android-SDK@3.4.7.81308_20220424\HBuilder-Integrate-AS\simpleDemo\src\main\AndroidManifest.xml:39:17-52
+87-->C:\Users\tjoven\Documents\3.4.7\Android-SDK@3.4.7.81308_20220424\HBuilder-Integrate-AS\simpleDemo\src\main\AndroidManifest.xml:39:23-49
+88            </intent-filter>
+89        </activity>
+90
+91        <meta-data
+91-->C:\Users\tjoven\Documents\3.4.7\Android-SDK@3.4.7.81308_20220424\HBuilder-Integrate-AS\simpleDemo\src\main\AndroidManifest.xml:42:9-44:64
+92            android:name="dcloud_appkey"
+92-->C:\Users\tjoven\Documents\3.4.7\Android-SDK@3.4.7.81308_20220424\HBuilder-Integrate-AS\simpleDemo\src\main\AndroidManifest.xml:43:13-41
+93            android:value="b885d4ae5702ec291a1b05f11616af6f" />
+93-->C:\Users\tjoven\Documents\3.4.7\Android-SDK@3.4.7.81308_20220424\HBuilder-Integrate-AS\simpleDemo\src\main\AndroidManifest.xml:44:13-61
+94        <!--
+95        <activity
+96            android:name="io.dcloud.imagepick.CustomGalleryActivity"
+97            android:noHistory="true"
+98            android:exported="false"/>
+99        -->
+100        <activity
+100-->[lib.5plus.base-release.aar] C:\Users\tjoven\.gradle\caches\transforms-2\files-2.1\6ce3f8d93e05ce2060c5093ca3decde2\jetified-lib.5plus.base-release\AndroidManifest.xml:181:9-187:58
+101            android:name="io.dcloud.feature.nativeObj.photoview.PhotoActivity"
+101-->[lib.5plus.base-release.aar] C:\Users\tjoven\.gradle\caches\transforms-2\files-2.1\6ce3f8d93e05ce2060c5093ca3decde2\jetified-lib.5plus.base-release\AndroidManifest.xml:182:13-79
+102            android:configChanges="orientation|keyboardHidden"
+102-->[lib.5plus.base-release.aar] C:\Users\tjoven\.gradle\caches\transforms-2\files-2.1\6ce3f8d93e05ce2060c5093ca3decde2\jetified-lib.5plus.base-release\AndroidManifest.xml:183:13-63
+103            android:exported="false"
+103-->[lib.5plus.base-release.aar] C:\Users\tjoven\.gradle\caches\transforms-2\files-2.1\6ce3f8d93e05ce2060c5093ca3decde2\jetified-lib.5plus.base-release\AndroidManifest.xml:184:13-37
+104            android:noHistory="false"
+104-->[lib.5plus.base-release.aar] C:\Users\tjoven\.gradle\caches\transforms-2\files-2.1\6ce3f8d93e05ce2060c5093ca3decde2\jetified-lib.5plus.base-release\AndroidManifest.xml:185:13-38
+105            android:screenOrientation="behind"
+105-->[lib.5plus.base-release.aar] C:\Users\tjoven\.gradle\caches\transforms-2\files-2.1\6ce3f8d93e05ce2060c5093ca3decde2\jetified-lib.5plus.base-release\AndroidManifest.xml:186:13-47
+106            android:theme="@style/DeviceDefault.Light" />
+106-->[lib.5plus.base-release.aar] C:\Users\tjoven\.gradle\caches\transforms-2\files-2.1\6ce3f8d93e05ce2060c5093ca3decde2\jetified-lib.5plus.base-release\AndroidManifest.xml:187:13-55
+107        <activity
+107-->[lib.5plus.base-release.aar] C:\Users\tjoven\.gradle\caches\transforms-2\files-2.1\6ce3f8d93e05ce2060c5093ca3decde2\jetified-lib.5plus.base-release\AndroidManifest.xml:188:9-197:58
+108            android:name="io.dcloud.WebAppActivity"
+108-->[lib.5plus.base-release.aar] C:\Users\tjoven\.gradle\caches\transforms-2\files-2.1\6ce3f8d93e05ce2060c5093ca3decde2\jetified-lib.5plus.base-release\AndroidManifest.xml:189:13-52
+109            android:configChanges="orientation|keyboard|keyboardHidden|smallestScreenSize|screenLayout|screenSize|mcc|mnc|fontScale|navigation"
+109-->[lib.5plus.base-release.aar] C:\Users\tjoven\.gradle\caches\transforms-2\files-2.1\6ce3f8d93e05ce2060c5093ca3decde2\jetified-lib.5plus.base-release\AndroidManifest.xml:190:13-144
+110            android:hardwareAccelerated="true"
+110-->[lib.5plus.base-release.aar] C:\Users\tjoven\.gradle\caches\transforms-2\files-2.1\6ce3f8d93e05ce2060c5093ca3decde2\jetified-lib.5plus.base-release\AndroidManifest.xml:191:13-47
+111            android:icon="@drawable/dcloud_recent"
+111-->[lib.5plus.base-release.aar] C:\Users\tjoven\.gradle\caches\transforms-2\files-2.1\6ce3f8d93e05ce2060c5093ca3decde2\jetified-lib.5plus.base-release\AndroidManifest.xml:192:13-51
+112            android:label="@string/stream_my"
+112-->[lib.5plus.base-release.aar] C:\Users\tjoven\.gradle\caches\transforms-2\files-2.1\6ce3f8d93e05ce2060c5093ca3decde2\jetified-lib.5plus.base-release\AndroidManifest.xml:193:13-46
+113            android:launchMode="singleTask"
+113-->[lib.5plus.base-release.aar] C:\Users\tjoven\.gradle\caches\transforms-2\files-2.1\6ce3f8d93e05ce2060c5093ca3decde2\jetified-lib.5plus.base-release\AndroidManifest.xml:194:13-44
+114            android:screenOrientation="portrait"
+114-->[lib.5plus.base-release.aar] C:\Users\tjoven\.gradle\caches\transforms-2\files-2.1\6ce3f8d93e05ce2060c5093ca3decde2\jetified-lib.5plus.base-release\AndroidManifest.xml:195:13-49
+115            android:theme="@style/DCloudTheme"
+115-->[lib.5plus.base-release.aar] C:\Users\tjoven\.gradle\caches\transforms-2\files-2.1\6ce3f8d93e05ce2060c5093ca3decde2\jetified-lib.5plus.base-release\AndroidManifest.xml:196:13-47
+116            android:windowSoftInputMode="adjustResize" />
+116-->[lib.5plus.base-release.aar] C:\Users\tjoven\.gradle\caches\transforms-2\files-2.1\6ce3f8d93e05ce2060c5093ca3decde2\jetified-lib.5plus.base-release\AndroidManifest.xml:197:13-55
+117        <activity
+117-->[lib.5plus.base-release.aar] C:\Users\tjoven\.gradle\caches\transforms-2\files-2.1\6ce3f8d93e05ce2060c5093ca3decde2\jetified-lib.5plus.base-release\AndroidManifest.xml:198:9-202:75
+118            android:name="io.dcloud.ProcessMediator"
+118-->[lib.5plus.base-release.aar] C:\Users\tjoven\.gradle\caches\transforms-2\files-2.1\6ce3f8d93e05ce2060c5093ca3decde2\jetified-lib.5plus.base-release\AndroidManifest.xml:199:13-53
+119            android:excludeFromRecents="true"
+119-->[lib.5plus.base-release.aar] C:\Users\tjoven\.gradle\caches\transforms-2\files-2.1\6ce3f8d93e05ce2060c5093ca3decde2\jetified-lib.5plus.base-release\AndroidManifest.xml:200:13-46
+120            android:exported="false"
+120-->[lib.5plus.base-release.aar] C:\Users\tjoven\.gradle\caches\transforms-2\files-2.1\6ce3f8d93e05ce2060c5093ca3decde2\jetified-lib.5plus.base-release\AndroidManifest.xml:201:13-37
+121            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+121-->[lib.5plus.base-release.aar] C:\Users\tjoven\.gradle\caches\transforms-2\files-2.1\6ce3f8d93e05ce2060c5093ca3decde2\jetified-lib.5plus.base-release\AndroidManifest.xml:202:13-72
+122        <activity
+122-->[lib.5plus.base-release.aar] C:\Users\tjoven\.gradle\caches\transforms-2\files-2.1\6ce3f8d93e05ce2060c5093ca3decde2\jetified-lib.5plus.base-release\AndroidManifest.xml:203:9-209:20
+123            android:name="io.dcloud.WebviewActivity"
+123-->[lib.5plus.base-release.aar] C:\Users\tjoven\.gradle\caches\transforms-2\files-2.1\6ce3f8d93e05ce2060c5093ca3decde2\jetified-lib.5plus.base-release\AndroidManifest.xml:204:13-53
+124            android:exported="false"
+124-->[lib.5plus.base-release.aar] C:\Users\tjoven\.gradle\caches\transforms-2\files-2.1\6ce3f8d93e05ce2060c5093ca3decde2\jetified-lib.5plus.base-release\AndroidManifest.xml:205:13-37
+125            android:screenOrientation="portrait"
+125-->[lib.5plus.base-release.aar] C:\Users\tjoven\.gradle\caches\transforms-2\files-2.1\6ce3f8d93e05ce2060c5093ca3decde2\jetified-lib.5plus.base-release\AndroidManifest.xml:206:13-49
+126            android:theme="@style/ThemeNoTitleBar"
+126-->[lib.5plus.base-release.aar] C:\Users\tjoven\.gradle\caches\transforms-2\files-2.1\6ce3f8d93e05ce2060c5093ca3decde2\jetified-lib.5plus.base-release\AndroidManifest.xml:207:13-51
+127            android:windowSoftInputMode="adjustPan" >
+127-->[lib.5plus.base-release.aar] C:\Users\tjoven\.gradle\caches\transforms-2\files-2.1\6ce3f8d93e05ce2060c5093ca3decde2\jetified-lib.5plus.base-release\AndroidManifest.xml:208:13-52
+128        </activity>
+129
+130        <receiver
+130-->[lib.5plus.base-release.aar] C:\Users\tjoven\.gradle\caches\transforms-2\files-2.1\6ce3f8d93e05ce2060c5093ca3decde2\jetified-lib.5plus.base-release\AndroidManifest.xml:211:9-219:20
+131            android:name="io.dcloud.common.adapter.io.DownloadReceiver"
+131-->[lib.5plus.base-release.aar] C:\Users\tjoven\.gradle\caches\transforms-2\files-2.1\6ce3f8d93e05ce2060c5093ca3decde2\jetified-lib.5plus.base-release\AndroidManifest.xml:212:13-72
+132            android:exported="false" >
+132-->[lib.5plus.base-release.aar] C:\Users\tjoven\.gradle\caches\transforms-2\files-2.1\6ce3f8d93e05ce2060c5093ca3decde2\jetified-lib.5plus.base-release\AndroidManifest.xml:213:13-37
+133            <intent-filter>
+133-->[lib.5plus.base-release.aar] C:\Users\tjoven\.gradle\caches\transforms-2\files-2.1\6ce3f8d93e05ce2060c5093ca3decde2\jetified-lib.5plus.base-release\AndroidManifest.xml:214:13-218:29
+134                <action android:name="android.intent.action.PACKAGE_ADDED" />
+134-->[lib.5plus.base-release.aar] C:\Users\tjoven\.gradle\caches\transforms-2\files-2.1\6ce3f8d93e05ce2060c5093ca3decde2\jetified-lib.5plus.base-release\AndroidManifest.xml:215:17-78
+134-->[lib.5plus.base-release.aar] C:\Users\tjoven\.gradle\caches\transforms-2\files-2.1\6ce3f8d93e05ce2060c5093ca3decde2\jetified-lib.5plus.base-release\AndroidManifest.xml:215:25-75
+135
+136                <data android:scheme="package" /> <!-- HERE! -->
+136-->C:\Users\tjoven\Documents\3.4.7\Android-SDK@3.4.7.81308_20220424\HBuilder-Integrate-AS\simpleDemo\src\main\AndroidManifest.xml:39:17-52
+136-->C:\Users\tjoven\Documents\3.4.7\Android-SDK@3.4.7.81308_20220424\HBuilder-Integrate-AS\simpleDemo\src\main\AndroidManifest.xml:39:23-49
+137            </intent-filter>
+138        </receiver> <!-- gallery******start -->
+139        <activity
+139-->[lib.5plus.base-release.aar] C:\Users\tjoven\.gradle\caches\transforms-2\files-2.1\6ce3f8d93e05ce2060c5093ca3decde2\jetified-lib.5plus.base-release\AndroidManifest.xml:222:9-227:63
+140            android:name="com.dmcbig.mediapicker.PickerActivity"
+140-->[lib.5plus.base-release.aar] C:\Users\tjoven\.gradle\caches\transforms-2\files-2.1\6ce3f8d93e05ce2060c5093ca3decde2\jetified-lib.5plus.base-release\AndroidManifest.xml:223:13-65
+141            android:configChanges="orientation|screenSize"
+141-->[lib.5plus.base-release.aar] C:\Users\tjoven\.gradle\caches\transforms-2\files-2.1\6ce3f8d93e05ce2060c5093ca3decde2\jetified-lib.5plus.base-release\AndroidManifest.xml:224:13-59
+142            android:exported="false"
+142-->[lib.5plus.base-release.aar] C:\Users\tjoven\.gradle\caches\transforms-2\files-2.1\6ce3f8d93e05ce2060c5093ca3decde2\jetified-lib.5plus.base-release\AndroidManifest.xml:225:13-37
+143            android:theme="@style/DeviceDefault.Light"
+143-->[lib.5plus.base-release.aar] C:\Users\tjoven\.gradle\caches\transforms-2\files-2.1\6ce3f8d93e05ce2060c5093ca3decde2\jetified-lib.5plus.base-release\AndroidManifest.xml:226:13-55
+144            android:windowSoftInputMode="stateAlwaysHidden" />
+144-->[lib.5plus.base-release.aar] C:\Users\tjoven\.gradle\caches\transforms-2\files-2.1\6ce3f8d93e05ce2060c5093ca3decde2\jetified-lib.5plus.base-release\AndroidManifest.xml:227:13-60
+145        <activity
+145-->[lib.5plus.base-release.aar] C:\Users\tjoven\.gradle\caches\transforms-2\files-2.1\6ce3f8d93e05ce2060c5093ca3decde2\jetified-lib.5plus.base-release\AndroidManifest.xml:228:9-233:63
+146            android:name="com.dmcbig.mediapicker.PreviewActivity"
+146-->[lib.5plus.base-release.aar] C:\Users\tjoven\.gradle\caches\transforms-2\files-2.1\6ce3f8d93e05ce2060c5093ca3decde2\jetified-lib.5plus.base-release\AndroidManifest.xml:229:13-66
+147            android:configChanges="orientation|screenSize"
+147-->[lib.5plus.base-release.aar] C:\Users\tjoven\.gradle\caches\transforms-2\files-2.1\6ce3f8d93e05ce2060c5093ca3decde2\jetified-lib.5plus.base-release\AndroidManifest.xml:230:13-59
+148            android:exported="false"
+148-->[lib.5plus.base-release.aar] C:\Users\tjoven\.gradle\caches\transforms-2\files-2.1\6ce3f8d93e05ce2060c5093ca3decde2\jetified-lib.5plus.base-release\AndroidManifest.xml:231:13-37
+149            android:theme="@style/DeviceDefault.Light"
+149-->[lib.5plus.base-release.aar] C:\Users\tjoven\.gradle\caches\transforms-2\files-2.1\6ce3f8d93e05ce2060c5093ca3decde2\jetified-lib.5plus.base-release\AndroidManifest.xml:232:13-55
+150            android:windowSoftInputMode="stateAlwaysHidden" /> <!-- gallery******end -->
+150-->[lib.5plus.base-release.aar] C:\Users\tjoven\.gradle\caches\transforms-2\files-2.1\6ce3f8d93e05ce2060c5093ca3decde2\jetified-lib.5plus.base-release\AndroidManifest.xml:233:13-60
+151        <provider
+151-->[lib.5plus.base-release.aar] C:\Users\tjoven\.gradle\caches\transforms-2\files-2.1\6ce3f8d93e05ce2060c5093ca3decde2\jetified-lib.5plus.base-release\AndroidManifest.xml:236:9-244:20
+152            android:name="io.dcloud.common.util.DCloud_FileProvider"
+152-->[lib.5plus.base-release.aar] C:\Users\tjoven\.gradle\caches\transforms-2\files-2.1\6ce3f8d93e05ce2060c5093ca3decde2\jetified-lib.5plus.base-release\AndroidManifest.xml:237:13-69
+153            android:authorities="com.android.simple.dc.fileprovider"
+153-->[lib.5plus.base-release.aar] C:\Users\tjoven\.gradle\caches\transforms-2\files-2.1\6ce3f8d93e05ce2060c5093ca3decde2\jetified-lib.5plus.base-release\AndroidManifest.xml:238:13-67
+154            android:exported="false"
+154-->[lib.5plus.base-release.aar] C:\Users\tjoven\.gradle\caches\transforms-2\files-2.1\6ce3f8d93e05ce2060c5093ca3decde2\jetified-lib.5plus.base-release\AndroidManifest.xml:239:13-37
+155            android:grantUriPermissions="true" >
+155-->[lib.5plus.base-release.aar] C:\Users\tjoven\.gradle\caches\transforms-2\files-2.1\6ce3f8d93e05ce2060c5093ca3decde2\jetified-lib.5plus.base-release\AndroidManifest.xml:240:13-47
+156            <meta-data
+156-->[lib.5plus.base-release.aar] C:\Users\tjoven\.gradle\caches\transforms-2\files-2.1\6ce3f8d93e05ce2060c5093ca3decde2\jetified-lib.5plus.base-release\AndroidManifest.xml:241:13-243:64
+157                android:name="android.support.FILE_PROVIDER_PATHS"
+157-->[lib.5plus.base-release.aar] C:\Users\tjoven\.gradle\caches\transforms-2\files-2.1\6ce3f8d93e05ce2060c5093ca3decde2\jetified-lib.5plus.base-release\AndroidManifest.xml:242:17-67
+158                android:resource="@xml/dcloud_file_provider" />
+158-->[lib.5plus.base-release.aar] C:\Users\tjoven\.gradle\caches\transforms-2\files-2.1\6ce3f8d93e05ce2060c5093ca3decde2\jetified-lib.5plus.base-release\AndroidManifest.xml:243:17-61
+159        </provider>
+160        <!--
+161            <meta-data
+162            android:name="DCLOUD_STREAMAPP_CHANNEL"
+163            android:value="io.dcloud.%APPID%|%APPID%|" />
+164        -->
+165        <meta-data
+165-->[lib.5plus.base-release.aar] C:\Users\tjoven\.gradle\caches\transforms-2\files-2.1\6ce3f8d93e05ce2060c5093ca3decde2\jetified-lib.5plus.base-release\AndroidManifest.xml:251:9-253:35
+166            android:name="android.max_aspect"
+166-->[lib.5plus.base-release.aar] C:\Users\tjoven\.gradle\caches\transforms-2\files-2.1\6ce3f8d93e05ce2060c5093ca3decde2\jetified-lib.5plus.base-release\AndroidManifest.xml:252:13-46
+167            android:value="2.4" />
+167-->[lib.5plus.base-release.aar] C:\Users\tjoven\.gradle\caches\transforms-2\files-2.1\6ce3f8d93e05ce2060c5093ca3decde2\jetified-lib.5plus.base-release\AndroidManifest.xml:253:13-32
+168
+169        <activity
+169-->[lib.5plus.base-release.aar] C:\Users\tjoven\.gradle\caches\transforms-2\files-2.1\6ce3f8d93e05ce2060c5093ca3decde2\jetified-lib.5plus.base-release\AndroidManifest.xml:255:9-260:63
+170            android:name="io.dcloud.feature.gallery.imageedit.IMGEditActivity"
+170-->[lib.5plus.base-release.aar] C:\Users\tjoven\.gradle\caches\transforms-2\files-2.1\6ce3f8d93e05ce2060c5093ca3decde2\jetified-lib.5plus.base-release\AndroidManifest.xml:256:13-79
+171            android:configChanges="orientation|keyboardHidden|screenSize"
+171-->[lib.5plus.base-release.aar] C:\Users\tjoven\.gradle\caches\transforms-2\files-2.1\6ce3f8d93e05ce2060c5093ca3decde2\jetified-lib.5plus.base-release\AndroidManifest.xml:257:13-74
+172            android:exported="false"
+172-->[lib.5plus.base-release.aar] C:\Users\tjoven\.gradle\caches\transforms-2\files-2.1\6ce3f8d93e05ce2060c5093ca3decde2\jetified-lib.5plus.base-release\AndroidManifest.xml:258:13-37
+173            android:theme="@style/ImageEditTheme"
+173-->[lib.5plus.base-release.aar] C:\Users\tjoven\.gradle\caches\transforms-2\files-2.1\6ce3f8d93e05ce2060c5093ca3decde2\jetified-lib.5plus.base-release\AndroidManifest.xml:259:13-50
+174            android:windowSoftInputMode="stateAlwaysHidden" />
+174-->[lib.5plus.base-release.aar] C:\Users\tjoven\.gradle\caches\transforms-2\files-2.1\6ce3f8d93e05ce2060c5093ca3decde2\jetified-lib.5plus.base-release\AndroidManifest.xml:260:13-60
+175
+176        <service
+176-->[lib.5plus.base-release.aar] C:\Users\tjoven\.gradle\caches\transforms-2\files-2.1\6ce3f8d93e05ce2060c5093ca3decde2\jetified-lib.5plus.base-release\AndroidManifest.xml:262:9-265:72
+177            android:name="io.dcloud.ads.base.service.DownloadService"
+177-->[lib.5plus.base-release.aar] C:\Users\tjoven\.gradle\caches\transforms-2\files-2.1\6ce3f8d93e05ce2060c5093ca3decde2\jetified-lib.5plus.base-release\AndroidManifest.xml:263:13-70
+178            android:exported="false"
+178-->[lib.5plus.base-release.aar] C:\Users\tjoven\.gradle\caches\transforms-2\files-2.1\6ce3f8d93e05ce2060c5093ca3decde2\jetified-lib.5plus.base-release\AndroidManifest.xml:264:13-37
+179            android:permission="android.permission.BIND_JOB_SERVICE" />
+179-->[lib.5plus.base-release.aar] C:\Users\tjoven\.gradle\caches\transforms-2\files-2.1\6ce3f8d93e05ce2060c5093ca3decde2\jetified-lib.5plus.base-release\AndroidManifest.xml:265:13-69
+180
+181        <receiver
+181-->[uniapp-v8-release.aar] C:\Users\tjoven\.gradle\caches\transforms-2\files-2.1\169aa4bed38a152830ed8382b755800d\jetified-uniapp-v8-release\AndroidManifest.xml:30:9-34:20
+182            android:name="com.taobao.weex.WXGlobalEventReceiver"
+182-->[uniapp-v8-release.aar] C:\Users\tjoven\.gradle\caches\transforms-2\files-2.1\169aa4bed38a152830ed8382b755800d\jetified-uniapp-v8-release\AndroidManifest.xml:31:13-65
+183            android:enabled="true"
+183-->[uniapp-v8-release.aar] C:\Users\tjoven\.gradle\caches\transforms-2\files-2.1\169aa4bed38a152830ed8382b755800d\jetified-uniapp-v8-release\AndroidManifest.xml:32:13-35
+184            android:exported="false" >
+184-->[uniapp-v8-release.aar] C:\Users\tjoven\.gradle\caches\transforms-2\files-2.1\169aa4bed38a152830ed8382b755800d\jetified-uniapp-v8-release\AndroidManifest.xml:33:13-37
+185        </receiver>
+186    </application>
+187
+188</manifest>
